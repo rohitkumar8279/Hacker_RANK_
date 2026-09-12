@@ -77,7 +77,7 @@ def validate_output(filepath: str):
 
         # Spending changes
         changes = row["spending_changes_needed"]
-        if changes:
+        if changes and changes != "none":
             parts = changes.split("|")
             if len(parts) > 3:
                 errors.append(f"Row {idx}: Too many spending changes (max 3)")
