@@ -7,10 +7,10 @@ Google Gemini
 gemini-3.6-flash
 
 ### Calls
-- total attempted: 131
+- total attempted: 51
 - successful calls: 0
-- failed calls: 131
-- 429 rate-limit failures: 131
+- failed calls: 51
+- 429 rate-limit failures: 51
 
 ### Global Pre-Extraction
 - unique relevant messages: 120
